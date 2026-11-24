@@ -1,0 +1,12 @@
+﻿
+data/
+models/*.pth
+models/*.pt
+
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
