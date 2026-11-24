@@ -1,7 +1,10 @@
 ﻿
-data/
-models/*.pth
-models/*.pt
+# تجاهل مجلدات الصور الضخمة فقط
+data/raw/
+data/processed/
+
+# السماح بتتبع مجلد البيانات الجدولية
+!data/tabular/
 
 
 __pycache__/
